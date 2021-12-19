@@ -86,10 +86,10 @@ else:
 if not os.path.isfile(wordList):
     print("Password file is not exist: ", wordList)
     sys.exit(0)
-password_data = open(wordList, "r").read().split("\n")
+passwordData = open(wordList, "r").read().split("\n")
 print("Password file selected: ", wordList)
 email = input("Enter Email/Username of Target Account : ").strip()
-for index, password in zip(range(password_data.__len__()), password_data):
+for index, password in zip(range(passwordData.__len__()), passwordData):
     password = password.strip()
     if len(password) < minimumPasswordLength:
         continue
