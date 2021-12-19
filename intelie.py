@@ -84,7 +84,7 @@ else:
     sys.exit()
 
 if not os.path.isfile(wordList):
-    print("Password file is not exist: ", wordList)
+    print(f"Password file is not exist: {wordList}")
     sys.exit(0)
 passwordData = open(wordList, "r").read().split("\n")
 print("Password file selected: ", wordList)
