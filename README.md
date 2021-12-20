@@ -20,5 +20,5 @@ I'm a programmer.
 
 ## Author
 
-- [@Md. Nur habib](https://www.github.com/nurhabib1)
+- [@Md. Nur habib](https://www.github.com/thenurhabib)
 
